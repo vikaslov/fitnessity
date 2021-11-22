@@ -1,0 +1,100 @@
+[18-Sep-2021 13:50:49 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vikaslo_fitnessity_co_db.braintree_users' doesn't exist in /home1/vikaslo/public_html/public/braintree/functions.php:9
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/functions.php(9): PDOStatement->execute()
+#1 /home1/vikaslo/public_html/public/braintree/index.php(22): getUserCartDetails('1')
+#2 {main}
+  thrown in /home1/vikaslo/public_html/public/braintree/functions.php on line 9
+[18-Sep-2021 13:51:05 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vikaslo_fitnessity_co_db.braintree_users' doesn't exist in /home1/vikaslo/public_html/public/braintree/functions.php:9
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/functions.php(9): PDOStatement->execute()
+#1 /home1/vikaslo/public_html/public/braintree/index.php(22): getUserCartDetails('1')
+#2 {main}
+  thrown in /home1/vikaslo/public_html/public/braintree/functions.php on line 9
+[19-Sep-2021 13:27:44 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:35:00 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:37:15 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:39:45 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:50:42 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:53:37 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 13:58:39 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 14:07:31 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 14:07:31 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[19-Sep-2021 14:10:08 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140
+[21-Sep-2021 12:54:32 America/Chicago] PHP Fatal error:  Uncaught Braintree_Exception_SSLCertificate in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php:140
+Stack trace:
+#0 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(99): Braintree_Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...')
+#1 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php(40): Braintree_Http->_doRequest('POST', '/merchants/yhbk...', '<?xml version="...')
+#2 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(402): Braintree_Http->post('/merchants/yhbk...', Array)
+#3 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(45): Braintree_TransactionGateway->_doCreate('/transactions', Array)
+#4 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/TransactionGateway.php(250): Braintree_TransactionGateway->create(Array)
+#5 /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Transaction.php(470): Braintree_TransactionGateway-> in /home1/vikaslo/public_html/public/braintree/braintree/Braintree/Http.php on line 140

@@ -1,0 +1,34 @@
+<IfModule mod_rewrite.c>
+
+    <IfModule mod_negotiation.c>
+
+        Options -MultiViews
+
+    </IfModule>
+
+
+
+    RewriteEngine On
+
+
+
+RewriteEngine On 
+
+RewriteRule ^$ /index.php [L]
+
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+
+
+
+    # Handle Front Controller...
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^ index.php [L]
+
+</IfModule>
+
+
+

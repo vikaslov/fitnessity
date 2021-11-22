@@ -1,0 +1,45 @@
+[06-Sep-2021 11:09:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14
+[06-Sep-2021 11:09:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14
+[06-Sep-2021 11:09:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14
+[06-Sep-2021 11:10:06 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14
+[06-Sep-2021 11:15:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/bootstrap/app.php on line 14
+[06-Sep-2021 11:15:16 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/bootstrap/app.php on line 14
+[06-Sep-2021 11:15:21 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/bootstrap/app.php on line 14
+[06-Sep-2021 12:25:39 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14
+[06-Sep-2021 12:25:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home1/vikaslo/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home1/vikaslo/public_html/artisan(20): require_once()
+#1 {main}
+  thrown in /home1/vikaslo/public_html/bootstrap/app.php on line 14

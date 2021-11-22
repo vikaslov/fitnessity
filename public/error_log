@@ -1,0 +1,1 @@
+[06-Sep-2021 14:07:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/vikaslo/public_html/public/index.php on line 52
