@@ -1347,7 +1347,23 @@ class UserProfileController extends Controller {
         /* if($select_label != null && $select_label != 'undefined')
           { */
         //DB::enableQueryLog(); // Enable query log
+		$query = CompanyInformation::where('id','>','0');
+		if($select_label!=''){
+			$query->where('company_name', 'LIKE', '%'. $select_label . '%');
+		}
+		
         if ($myloc != null && $myloc != 'undefined') {
+			$search = $myloc;
+			$query->where(function($q) use ($search) {
+				$q->where('city', 'LIKE', '%' . $search . '%')
+                ->orWhere('country', 'LIKE', '%' . $search . '%')
+				->orWhere('state', 'LIKE', '%' . $search . '%')
+				->orWhere('zip_code', 'LIKE', '%' . $search . '%');
+			});
+		}
+		$company = $query->get();
+				
+        /*if ($myloc != null && $myloc != 'undefined') {
             if ($select_zipcode != null && $select_zipcode != 'undefined') {
                 $company = CompanyInformation::where('company_name', 'LIKE', $select_label . '%')->where('city', 'LIKE', $myloc . '%')->where('zip_code', 'LIKE', $select_zipcode . '%')->get();
             } else {
@@ -1355,7 +1371,8 @@ class UserProfileController extends Controller {
             }
         } else {
             $company = CompanyInformation::where('company_name', 'LIKE', $select_label . '%')->get();
-        }
+        }*/
+		
        //dd(DB::getQueryLog()); // Show results of log
         //}
         /* if($request->selected_sport != null && $request->selected_sport != 'undefined')
