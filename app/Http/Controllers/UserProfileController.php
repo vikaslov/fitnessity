@@ -1361,7 +1361,12 @@ class UserProfileController extends Controller {
 				->orWhere('zip_code', 'LIKE', '%' . $search . '%');
 			});
 		}
+		if($select_zipcode!= null && $select_zipcode != 'undefined'){
+			$query->where('zip_code', 'LIKE', '%'. $select_zipcode . '%');
+		}
+		
 		$company = $query->get();
+		
 				
         /*if ($myloc != null && $myloc != 'undefined') {
             if ($select_zipcode != null && $select_zipcode != 'undefined') {
