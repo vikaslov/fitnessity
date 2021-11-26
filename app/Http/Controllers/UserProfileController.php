@@ -1347,7 +1347,7 @@ class UserProfileController extends Controller {
         /* if($select_label != null && $select_label != 'undefined')
           { */
         //DB::enableQueryLog(); // Enable query log
-		$query = CompanyInformation::where('id','>','0');
+		$query = CompanyInformation::orderBy('id','DESC');
 		if($select_label!=''){
 			$query->where('company_name', 'LIKE', '%'. $select_label . '%');
 		}

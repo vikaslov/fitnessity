@@ -7,7 +7,7 @@
 <section class="slider_wrapper">
     <div class="main-slider owl-carousel owl-theme">
         @foreach($sliders as $slider)
-        <div class="slide" style="background-image: url('/public/uploads/slider/thumb/{{$slider->image}}') ">
+        <div class="slide" style="background-image: url('/uploads/slider/thumb/{{$slider->image}}') ">
             <div class="content-column">
                 <div class="inner-column">
                     <div class="title">{{$slider->title}}</div>
@@ -36,19 +36,19 @@
                     <div class="col-sm-12">
                         <ul>
                             <li>
-                                <img src="{{ asset('public/images/run-icon.png') }}" alt="">
+                                <img src="{{ asset('/images/run-icon.png') }}" alt="">
                                 <input autocomplete="off" type="text" name="label" id="activity_label" placeholder="Activity or Bussiness" value="@if(isset($selected_label) && $selected_label != NULL){{$selected_label }}@endif" class="search_input_banner">
                                 <div id="suggesstion-box-search-activity"></div>
                             </li>
                             <li>
                                 <div id="suggestions">
-                                    <img src="{{ asset('public/images/map-marker-icon.png') }}" alt="">
+                                    <img src="{{ asset('/images/map-marker-icon.png') }}" alt="">
                                     <input autocomplete="off" id="pac-input1" name="location" type="text" placeholder="Location" value="@if(isset($selected_location) && $selected_location != NULL){{$selected_location }}@endif">
                                 </div>
                                 <div id="suggesstion-box-search-location"></div>
                             </li>
                             <li>
-                                <img src="{{ asset('public/images/envlope-icon.png') }}" alt="">
+                                <img src="{{ asset('/images/envlope-icon.png') }}" alt="">
                                 <input type="text" autocomplete="off" placeholder="Zip Code" name="zipcode" id="zipcode" value="@if(isset($selected_zipcode) && $selected_zipcode != NULL){{$selected_zipcode }}@endif">
                                 <div id="suggesstion-box-search-zipcode"></div>
                             </li>
@@ -61,7 +61,7 @@
     </div>
 </section>
 
-<section class="bepart_wraper" style="background-image: url({{ asset('public/images/beapart_bg.jpg') }}) ">
+<section class="bepart_wraper" style="background-image: url({{ asset('/images/beapart_bg.jpg') }}) ">
     <div class="container">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="col-xs-4 col-lg-4">
@@ -98,7 +98,7 @@
     </div>
 </section>
 
-<section class="category" style="background-image: url({{ asset('public/images/category-bg.jpg') }})">
+<section class="category" style="background-image: url({{ asset('/images/category-bg.jpg') }})">
     <div class="cat-container">
         <div class="about-services-title" style="margin-bottom:3%">
             <h1>What Do You Like To Do</h1>
@@ -148,7 +148,7 @@
                         <div class="cat-item style_prevu_sp item" data-dot="{{$j}}">
                             <span>
                                 <div class="cat-img-name">
-                                    <img src="{{asset('public/uploads/sports/'."$data->image")}}" alt="{{$data->sport_name}}" />
+                                    <img src="{{asset('/uploads/sports/'."$data->image")}}" alt="{{$data->sport_name}}" />
                                 </div>
                                 <div class="cat-detail">
                                     <h1>{{$data->sport_name}}</h1>
@@ -186,8 +186,8 @@
                 <li>
                     <div class="online_classes_box">
                         <div class="imageclasses">
-                            <a href="/instant-hire"><img src="{{ asset('public/uploads/online/thumb/'."$online->image") }}" alt=""></a>
-                            <span class="live_img"><img src="{{ asset('public/images/liveimg.png') }}" alt=""></span>
+                            <a href="/instant-hire"><img src="{{ asset('/uploads/online/thumb/'."$online->image") }}" alt=""></a>
+                            <span class="live_img"><img src="{{ asset('/images/liveimg.png') }}" alt=""></span>
                         </div>
                         <div class="classes_title">
                             <h3>{{$online->heading}}<span>{{$online->title}}</span></h3>
@@ -237,7 +237,7 @@
                 <li>
                     <div class="online_classes_box">
                         <div class="imageclasses">
-                            <a href="/instant-hire"><img src="{{ asset('public/uploads/person/thumb/'."$person->image") }}" alt=""></a>
+                            <a href="/instant-hire"><img src="{{ asset('/uploads/person/thumb/'."$person->image") }}" alt=""></a>
                         </div>
                         <div class="classes_title">
                             <h3>{{$person->heading}} <span>- {{$person->title}}</span></h3>
@@ -275,7 +275,7 @@
 
 @foreach($fitnessity_data as $fitnessity)
 
-<section class="ptb-65 plr-60 why_fitnessity" id="why-fitnessity" style="background-image: url('/public/uploads/cms/{{$fitnessity->banner_image}}')">
+<section class="ptb-65 plr-60 why_fitnessity" id="why-fitnessity" style="background-image: url('/uploads/cms/{{$fitnessity->banner_image}}')">
     <div class="cat-container">
         <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="whyfitnessity_content">
@@ -292,7 +292,7 @@
         <div class="col-md-6 col-sm-6 col-xs-12 why_video_wrap">
             <div class="video_block">
                 <video id="ban_video" class="tv_video">
-                    <source src="{{ asset('public/'.$fitnessity->video) }}" type="video/mp4">
+                    <source src="{{ asset('/'.$fitnessity->video) }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <div class="play-bt video_icon"><i class="fa fa-play"></i></div>
@@ -313,7 +313,7 @@
         <div class="row row1">
             @foreach($discovers as $discover)
             <div class="col-md-4 col-sm-4 col-xs-12 activities_box">
-                <div class="activities_img"><a href="/instant-hire"><img src="{{ asset('public/uploads/discover/thumb/'."$discover->image") }}" alt=""></a></div>
+                <div class="activities_img"><a href="/instant-hire"><img src="{{ asset('/uploads/discover/thumb/'."$discover->image") }}" alt=""></a></div>
                 <div class="activites_content">
                     <h3><a href="/instant-hire">{{$discover->title}}</a></h3>
                     <p>{{$discover->description}}</p>
@@ -326,7 +326,7 @@
 </section>
 
 @foreach($bepart_data as $data)
-<section class="ptb-65 plr-60 float-left w-100 bepart_easywrap" id="be-a-part" style="background-image: url('/public/uploads/cms/{{$data->banner_image}}')">
+<section class="ptb-65 plr-60 float-left w-100 bepart_easywrap" id="be-a-part" style="background-image: url('/uploads/cms/{{$data->banner_image}}')">
     <div class="cat-container">
         <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
@@ -350,7 +350,7 @@
         <div class="easyboxes_wrap">
             @foreach($trainers as $trainer)
             <div class="easyboxes_items">
-                <div class="easy_img"><a href="#"><img src="{{ asset('public/uploads/trainer/thumb/'."$trainer->image") }}" alt=""></a></div>
+                <div class="easy_img"><a href="#"><img src="{{ asset('/uploads/trainer/thumb/'."$trainer->image") }}" alt=""></a></div>
                 <div class="easy_content">
                     <h3><a href="#">{{$trainer->name}}</a></h3>
                 </div>

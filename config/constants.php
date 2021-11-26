@@ -4,9 +4,9 @@ return [
 
 //    'URL' => 'http://localhost/fitness/',
 
-    'URL' => 'http://'.$_SERVER["HTTP_HOST"],
+    'URL' => env('APP_URL'),
 
-    'ADMIN_URL' => 'http://'.$_SERVER["HTTP_HOST"].'admin/',
+    'ADMIN_URL' => env('APP_URL').'/admin/',
 
     'SITE_URL'  => config('constants.URL'),
 

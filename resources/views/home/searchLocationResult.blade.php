@@ -227,7 +227,7 @@
                                     <span class="slider round"></span>
                                 </label>
                             </div>
-                            <div class="barsb"><img src="{{ url('public/img/bars1.svg') }}"><img src="{{ url('public/img/bars2.svg') }}"></div>
+                            <div class="barsb"><img src="{{ url('/img/bars1.svg') }}"><img src="{{ url('/img/bars2.svg') }}"></div>
                         </div>
                             <div class="col-md-8 mysrchloc">
                                 @if(count($resultnew) != 0)
@@ -243,7 +243,7 @@
                                                 @if(count($value['company_images'])!= 0)
                                                 <img class="img-fluid" src="<?php echo Config::get('constants.USER_IMAGE_THUMB') . $value['company_images'][0]; ?>" alt="Card image cap">
                                                 @else
-                                                <img class="img-fluid" src="{{url('/public/images/')}}/claim-bg.jpeg" alt="Card image cap">
+                                                <img class="img-fluid" src="{{url('/images/')}}/claim-bg.jpeg" alt="Card image cap">
                                                 @endif
                                                 @else
                                                 <img class="img-fluid" src="<?php echo Config::get('constants.FRONT_IMAGE'); ?>business_large_square.png" alt="Card image cap">
